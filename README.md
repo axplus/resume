@@ -94,13 +94,13 @@ Project Manager
 
 ### 2014.12-2016.6 黄钻会员催费平台
 
-Project Manager, Leader
+Leader
 
 所属公司：腾讯科技(深圳)有限公司
 
 ### 2012.10-2014.10，微云Mac客户端
 
-Project Manager, Leader
+Leader
 
 所属公司：腾讯科技(深圳)有限公司
 
