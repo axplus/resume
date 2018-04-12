@@ -5,8 +5,8 @@ chapters=$(wildcard src/*.md)
 all: README.md
 
 README.md: $(chapters)
-	python -mmybook merge -o$@ $(dir $<)
+	python3 -mmybook merge -o$@ $(dir $<)
 
 
 split: README.md
-	python -mmybook split -Osrc $<
+	python3 -mmybook split -Osrc $<
