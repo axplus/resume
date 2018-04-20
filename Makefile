@@ -9,4 +9,5 @@ README.md: $(chapters)
 
 
 split: README.md
+	$(RM) src/*.md
 	python -mmybook split -Osrc $<
