@@ -1,0 +1,3 @@
+[submodule "mybook"]
+	path = mybook
+	url = https://bitbucket.org/axplus/mybook.git
