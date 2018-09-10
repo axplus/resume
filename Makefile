@@ -2,14 +2,13 @@ chapters=$(wildcard src/*.md)
 
 
 
-all: README.md dist/resume.docx
+all: README.md resume.docx
 clean:
 install:
 
 
 
-dist/resume.docx: README.md
-	mkdir -p $(dir $@)
+resume.docx: README.md
 	pandoc -t docx -f markdown -o $@ $<
 
 README.md: $(chapters)
