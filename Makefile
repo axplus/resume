@@ -9,8 +9,8 @@ clean:
 	$(RM) resume.docx resume.pdf
 
 
-resume.pdf: README.md
-	pandoc -f markdown -o $@ $<
+resume.pdf: ~/Documents/曾毅杰-15年工作经验-电子商务领域后台开发.pdf
+	cp $< $@
 
 
 resume.docx: README.md
