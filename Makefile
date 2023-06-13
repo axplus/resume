@@ -2,9 +2,10 @@ markdowns:=$(wildcard *.md)
 
 
 
-all: $(markdowns:.md=.pdf)
+all: $(addprefix target/,$(markdowns:.md=.pdf))
 
 
 
-%.pdf: %.md
+target/%.pdf: %.md
+	@mkdir -p $(dir $@)
 	pandoc --pdf-engine=xelatex -V mainfont="PingFang SC"  -o $@ $<
